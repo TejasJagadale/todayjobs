@@ -48,8 +48,8 @@ const Home = () => {
         setJobs(jobsData);
 
         // Separate government and private jobs
-        const govJobs = jobsData.filter((job) => job.type === "Government");
-        const privJobs = jobsData.filter((job) => job.type !== "Government");
+        const govJobs = jobsData.filter((job) => job.category === "Govt");
+        const privJobs = jobsData.filter((job) => job.category !== "Govt");
         setGovernmentJobs(govJobs);
         setPrivateJobs(privJobs);
 
@@ -103,8 +103,8 @@ const Home = () => {
     });
 
     // Update separated jobs based on filtered results
-    const govJobs = filtered.filter((job) => job.type === "Government");
-    const privJobs = filtered.filter((job) => job.type !== "Government");
+    const govJobs = filtered.filter((job) => job.category === "Govt");
+    const privJobs = filtered.filter((job) => job.category !== "Govt");
     setGovernmentJobs(govJobs);
     setPrivateJobs(privJobs);
     setCurrentGovPage(1);
