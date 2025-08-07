@@ -3,6 +3,23 @@
   width: 1200px;
   margin: 40px auto;
   padding: 0 20px;
+  position: relative;
+  height: 70vh;
+}
+
+.contact-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../public/images/cbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  z-index: -1;
 }
 
 .contact-container h1 {
@@ -146,6 +163,20 @@
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+  .contact-container::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../public/images/cbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+    z-index: -1;
+  }
   .contact-card {
     background-color: #fff;
     border-radius: 8px;
@@ -177,5 +208,6 @@
     width: 100%;
     margin: 40px auto;
     padding: 0 20px;
+    height: auto;
   }
 }

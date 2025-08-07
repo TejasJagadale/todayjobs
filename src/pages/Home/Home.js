@@ -20,7 +20,7 @@ const Home = () => {
   const [loading, setLoading] = useState(true);
   const [currentGovPage, setCurrentGovPage] = useState(1);
   const [currentPrivatePage, setCurrentPrivatePage] = useState(1);
-  const [jobsPerPage] = useState(6);
+  const [jobsPerPage] = useState(8);
   const [error, setError] = useState(null);
 
   const openJobModal = (job) => {
@@ -115,7 +115,7 @@ const Home = () => {
     <div className="home-page">
       {/* Hero Section */}
       <section className="hero-section">
-        <div className="container">
+        <div className="containerhome">
           <div className="hero-content">
             <h1 className="hero-title">Find Your Dream Job Today</h1>
             <p className="hero-subtitle">
@@ -141,7 +141,7 @@ const Home = () => {
       </section>
 
       <main className="main-content">
-        <div className="container">
+        <div className="containerhome">
           {/* Advertisement Banner */}
           <div className="ad-banner">
             <AdSense
@@ -354,7 +354,7 @@ const Home = () => {
 
       {/* Newsletter Section */}
       <section className="newsletter-section">
-        <div className="container">
+        <div className="containerhome">
           <div className="newsletter-content">
             <h3>Get Job Alerts Directly to Your Inbox</h3>
             <p>Subscribe to our newsletter for the latest job openings</p>
