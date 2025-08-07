@@ -1,0 +1,139 @@
+/* Companies.css */
+.companies-container {
+  width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.companies-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.company-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.company-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logocom {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 15px;
+  border-radius: 5px;
+  /* display: none; */
+}
+
+.company-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.company-details {
+  margin: 15px 0;
+}
+
+.company-details p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.hiring-yes {
+  color: #10b981;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.hiring-no {
+  color: #ef4444;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.visit-website {
+  display: inline-block;
+  background-color: #2c3e50;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.visit-website:hover {
+  background-color: #1d4ed8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .company-list {
+    grid-template-columns: 1fr;
+  }
+
+  .company-header {
+    /* flex-direction: column; */
+    text-align: right;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .company-logocom {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .companies-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  .companies-container h1 {
+    text-align: left;
+    font-size: 1.7rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  .company-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+  }
+}

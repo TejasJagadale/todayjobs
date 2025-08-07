@@ -1,0 +1,446 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "Bangalore, India",
+      "salary": "₹8,00,000 - ₹12,00,000 per year",
+      "type": "Full-time",
+      "posted": "2 days ago",
+      "description": "We are looking for a skilled Frontend Developer proficient in React.js to join our team.",
+      "requirements": [
+        "3+ years of experience with React.js",
+        "Strong knowledge of JavaScript, HTML, CSS",
+        "Experience with Redux or Context API",
+        "Familiarity with RESTful APIs"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "Data Systems Ltd.",
+      "location": "Remote",
+      "salary": "₹10,00,000 - ₹15,00,000 per year",
+      "type": "Full-time",
+      "posted": "1 week ago",
+      "description": "Join our backend team to develop scalable server-side applications.",
+      "requirements": [
+        "Proficiency in Node.js and Express",
+        "Experience with databases (MongoDB, PostgreSQL)",
+        "Knowledge of AWS services",
+        "Understanding of microservices architecture"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "company": "Creative Minds",
+      "location": "Mumbai, India",
+      "salary": "₹6,00,000 - ₹9,00,000 per year",
+      "type": "Contract",
+      "posted": "3 days ago",
+      "description": "We need a creative UI/UX designer to create beautiful user interfaces.",
+      "requirements": [
+        "Portfolio demonstrating UI/UX skills",
+        "Experience with Figma or Adobe XD",
+        "Understanding of user-centered design",
+        "Ability to create prototypes"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "UPSC Civil Services Examination",
+      "company": "Union Public Service Commission",
+      "location": "All India",
+      "salary": "As per 7th Pay Commission",
+      "type": "Government",
+      "posted": "1 month ago",
+      "description": "India's premier central civil services examination for IAS, IPS, IFS etc.",
+      "requirements": [
+        "Bachelor's degree in any discipline",
+        "Age 21-32 years (relaxation for reserved categories)",
+        "Indian citizenship"
+      ],
+      "applyLink": "https://upsc.gov.in"
+    },
+    {
+      "id": 5,
+      "title": "SSC CGL",
+      "company": "Staff Selection Commission",
+      "location": "All India",
+      "salary": "Level 4-8 Pay Matrix",
+      "type": "Government",
+      "posted": "3 weeks ago",
+      "description": "Combined Graduate Level Examination for various government posts.",
+      "requirements": [
+        "Bachelor's degree in any discipline",
+        "Age 18-32 years",
+        "Indian citizenship"
+      ],
+      "applyLink": "https://ssc.nic.in"
+    },
+    {
+      "id": 6,
+      "title": "IBPS PO",
+      "company": "Institute of Banking Personnel Selection",
+      "location": "All India",
+      "salary": "₹36,000 - ₹63,840 per month",
+      "type": "Government",
+      "posted": "2 weeks ago",
+      "description": "Probationary Officer recruitment in public sector banks.",
+      "requirements": [
+        "Graduate degree in any discipline",
+        "Age 20-30 years",
+        "Proficiency in local language"
+      ],
+      "applyLink": "https://ibps.in"
+    },
+    {
+      "id": 7,
+      "title": "TNPSC Group 1",
+      "company": "Tamil Nadu Public Service Commission",
+      "location": "Tamil Nadu",
+      "salary": "Level 22-24 Pay Scale",
+      "type": "State Government",
+      "posted": "10 days ago",
+      "description": "Tamil Nadu state civil services examination for various posts.",
+      "requirements": [
+        "Any degree",
+        "Age 21-37 years",
+        "Knowledge of Tamil language"
+      ],
+      "applyLink": "https://tnpsc.gov.in"
+    },
+    {
+      "id": 8,
+      "title": "MPPSC State Services",
+      "company": "Madhya Pradesh Public Service Commission",
+      "location": "Madhya Pradesh",
+      "salary": "As per state pay scale",
+      "type": "State Government",
+      "posted": "5 days ago",
+      "description": "Madhya Pradesh state civil services examination.",
+      "requirements": [
+        "Bachelor's degree",
+        "Age 21-40 years",
+        "Domicile of MP preferred"
+      ],
+      "applyLink": "https://mppsc.nic.in"
+    },
+    {
+      "id": 9,
+      "title": "ISRO Scientist/Engineer",
+      "company": "Indian Space Research Organisation",
+      "location": "Multiple locations",
+      "salary": "Level 10 Pay Matrix",
+      "type": "Government",
+      "posted": "1 week ago",
+      "description": "Recruitment for Scientist/Engineer positions in ISRO.",
+      "requirements": [
+        "BE/B.Tech in relevant engineering discipline",
+        "Minimum 65% marks",
+        "Age limit: 35 years"
+      ],
+      "applyLink": "https://isro.gov.in/careers"
+    },
+    {
+      "id": 10,
+      "title": "RRB NTPC",
+      "company": "Railway Recruitment Board",
+      "location": "All India",
+      "salary": "₹19,900 - ₹35,400 per month",
+      "type": "Government",
+      "posted": "2 weeks ago",
+      "description": "Non-Technical Popular Categories recruitment in Indian Railways.",
+      "requirements": [
+        "Graduate degree in any discipline",
+        "Age 18-30 years",
+        "Computer proficiency"
+      ],
+      "applyLink": "https://indianrailways.gov.in"
+    },
+    {
+      "id": 11,
+      "title": "Data Scientist",
+      "company": "Analytics Pro",
+      "location": "Hyderabad, India",
+      "salary": "₹12,00,000 - ₹18,00,000 per year",
+      "type": "Full-time",
+      "posted": "4 days ago",
+      "description": "Looking for experienced Data Scientists to build predictive models.",
+      "requirements": [
+        "Master's in Data Science or related field",
+        "3+ years experience with Python/R",
+        "Knowledge of ML algorithms",
+        "Experience with TensorFlow/PyTorch"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Cybersecurity Analyst",
+      "company": "SecureNet Solutions",
+      "location": "Delhi NCR",
+      "salary": "₹9,00,000 - ₹14,00,000 per year",
+      "type": "Full-time",
+      "posted": "1 week ago",
+      "description": "Protect our systems and networks from cyber threats.",
+      "requirements": [
+        "CEH or CISSP certification preferred",
+        "Knowledge of ethical hacking techniques",
+        "Experience with SIEM tools",
+        "Understanding of compliance standards"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Indian Army Technical Entry",
+      "company": "Indian Army",
+      "location": "All India",
+      "salary": "As per defense pay matrix",
+      "type": "Government",
+      "posted": "3 days ago",
+      "description": "Technical graduate entry scheme for Indian Army.",
+      "requirements": [
+        "BE/B.Tech in eligible streams",
+        "Age 20-27 years",
+        "Permanent commission opportunity"
+      ],
+      "applyLink": "https://joinindianarmy.nic.in"
+    },
+    {
+      "id": 14,
+      "title": "AIIMS Nursing Officer",
+      "company": "All India Institute of Medical Sciences",
+      "location": "Multiple locations",
+      "salary": "Level 7 Pay Matrix",
+      "type": "Government",
+      "posted": "1 week ago",
+      "description": "Recruitment for Nursing Officers across AIIMS institutions.",
+      "requirements": [
+        "B.Sc Nursing or Diploma in Nursing",
+        "Registration with State Nursing Council",
+        "Age limit: 30 years"
+      ],
+      "applyLink": "https://aiims.edu"
+    },
+    {
+      "id": 15,
+      "title": "BPSC Assistant Professor",
+      "company": "Bihar Public Service Commission",
+      "location": "Bihar",
+      "salary": "Level 10 Pay Matrix",
+      "type": "State Government",
+      "posted": "5 days ago",
+      "description": "Recruitment for Assistant Professors in Bihar state universities.",
+      "requirements": [
+        "Ph.D in relevant subject",
+        "NET/SET qualified",
+        "Teaching experience preferred"
+      ],
+      "applyLink": "https://bpsc.bih.nic.in"
+    },
+    {
+      "id": 16,
+      "title": "DevOps Engineer",
+      "company": "CloudTech Solutions",
+      "location": "Pune, India",
+      "salary": "₹15,00,000 - ₹22,00,000 per year",
+      "type": "Full-time",
+      "posted": "2 days ago",
+      "description": "Implement and maintain CI/CD pipelines for enterprise applications.",
+      "requirements": [
+        "Experience with AWS/Azure/GCP",
+        "Knowledge of Docker and Kubernetes",
+        "Infrastructure as Code (Terraform)",
+        "Monitoring tools expertise"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "NDA Examination",
+      "company": "Union Public Service Commission",
+      "location": "All India",
+      "salary": "As per defense pay scales",
+      "type": "Government",
+      "posted": "2 weeks ago",
+      "description": "National Defense Academy examination for Army, Navy and Air Force wings.",
+      "requirements": [
+        "10+2 education",
+        "Age 16.5-19.5 years",
+        "Unmarried Indian male/female"
+      ],
+      "applyLink": "https://upsc.gov.in/nda"
+    },
+    {
+      "id": 18,
+      "title": "Kerala PSC Lecturer",
+      "company": "Kerala Public Service Commission",
+      "location": "Kerala",
+      "salary": "As per UGC norms",
+      "type": "State Government",
+      "posted": "1 week ago",
+      "description": "Recruitment for Lecturer positions in Kerala government colleges.",
+      "requirements": [
+        "Post Graduate degree in relevant subject",
+        "NET/SET qualified",
+        "Knowledge of Malayalam"
+      ],
+      "applyLink": "https://keralapsc.gov.in"
+    },
+    {
+      "id": 19,
+      "title": "Product Manager",
+      "company": "E-Com Solutions",
+      "location": "Gurgaon, India",
+      "salary": "₹18,00,000 - ₹25,00,000 per year",
+      "type": "Full-time",
+      "posted": "3 days ago",
+      "description": "Lead product development for our e-commerce platform.",
+      "requirements": [
+        "5+ years product management experience",
+        "Technical background preferred",
+        "Strong analytical skills",
+        "Experience with Agile methodologies"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "SBI PO",
+      "company": "State Bank of India",
+      "location": "All India",
+      "salary": "₹41,960 - ₹46,480 per month",
+      "type": "Government",
+      "posted": "1 week ago",
+      "description": "Probationary Officer recruitment in State Bank of India.",
+      "requirements": [
+        "Graduate degree in any discipline",
+        "Age 21-30 years",
+        "Indian citizenship"
+      ],
+      "applyLink": "https://sbi.co.in/careers"
+    }
+  ],
+  "governmentLinks": [
+    {
+      "name": "UPSC Official Site",
+      "url": "https://upsc.gov.in",
+      "description": "Union Public Service Commission - Civil Services, Engineering Services, CDS etc.",
+      "category": "Central Government"
+    },
+    {
+      "name": "SSC India",
+      "url": "https://ssc.nic.in",
+      "description": "Staff Selection Commission - CGL, CHSL, JE, Stenographer etc.",
+      "category": "Central Government"
+    },
+    {
+      "name": "IBPS",
+      "url": "https://ibps.in",
+      "description": "Banking sector recruitment - PO, Clerk, SO etc.",
+      "category": "Banking"
+    },
+    {
+      "name": "State PSCs Portal",
+      "url": "https://state.gov.in/links",
+      "description": "Links to all State Public Service Commissions",
+      "category": "State Government"
+    },
+    {
+      "name": "Railway Recruitment",
+      "url": "https://rrcb.gov.in",
+      "description": "Railway Recruitment Control Board - Various posts",
+      "category": "Central Government"
+    },
+    {
+      "name": "Defense Jobs",
+      "url": "https://joinindianarmy.nic.in",
+      "description": "Indian Army, Navy, Air Force recruitment",
+      "category": "Defense"
+    },
+    {
+      "name": "NTA Exams",
+      "url": "https://nta.ac.in",
+      "description": "National Testing Agency - JEE, NEET, UGC NET etc.",
+      "category": "Education"
+    },
+    {
+      "name": "ESIC Recruitment",
+      "url": "https://esic.nic.in",
+      "description": "Employees State Insurance Corporation jobs",
+      "category": "Central Government"
+    },
+    {
+      "name": "ONGC Careers",
+      "url": "https://ongcindia.com",
+      "description": "Oil and Natural Gas Corporation Limited jobs",
+      "category": "PSU"
+    },
+    {
+      "name": "DRDO Recruitment",
+      "url": "https://drdo.gov.in",
+      "description": "Defense Research and Development Organization jobs",
+      "category": "Defense"
+    },
+    {
+      "name": "Teaching Jobs",
+      "url": "https://ncte.gov.in",
+      "description": "National Council for Teacher Education - Teaching positions",
+      "category": "Education"
+    },
+    {
+      "name": "NHAI Careers",
+      "url": "https://nhai.gov.in",
+      "description": "National Highways Authority of India jobs",
+      "category": "PSU"
+    },
+    {
+      "name": "Medical Jobs",
+      "url": "https://mohfw.gov.in",
+      "description": "Ministry of Health and Family Welfare recruitment",
+      "category": "Health"
+    },
+    {
+      "name": "Income Tax Jobs",
+      "url": "https://incometaxindia.gov.in",
+      "description": "Income Tax Department recruitment",
+      "category": "Central Government"
+    },
+    {
+      "name": "Forest Department",
+      "url": "https://forestsclearance.nic.in",
+      "description": "Forest and Wildlife department jobs",
+      "category": "State Government"
+    },
+    {
+      "name": "Police Recruitment",
+      "url": "https://police.gov.in",
+      "description": "Central and State police forces recruitment",
+      "category": "Police"
+    },
+    {
+      "name": "Banking Careers",
+      "url": "https://banking.gov.in",
+      "description": "All banking sector recruitment notifications",
+      "category": "Banking"
+    },
+    {
+      "name": "Judicial Services",
+      "url": "https://hcmimphal.nic.in",
+      "description": "Judicial Services examinations across states",
+      "category": "Judiciary"
+    },
+    {
+      "name": "Engineering Services",
+      "url": "https://ies.gov.in",
+      "description": "Indian Engineering Services examination",
+      "category": "Engineering"
+    },
+    {
+      "name": "Agricultural Jobs",
+      "url": "https://agricoop.nic.in",
+      "description": "Agriculture and related sector jobs",
+      "category": "Agriculture"
+    }
+  ]
+}
