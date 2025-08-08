@@ -43,7 +43,7 @@ const Home = () => {
           fetchJobs(),
           fetchGovernmentLinks()
         ]);
-        console.log(jobsData);
+        // console.log(jobsData);
 
         setJobs(jobsData);
 
@@ -353,7 +353,7 @@ const Home = () => {
       </main>
 
       {/* Newsletter Section */}
-      <section className="newsletter-section">
+      {/*   <section className="newsletter-section">
         <div className="containerhome">
           <div className="newsletter-content">
             <h3>Get Job Alerts Directly to Your Inbox</h3>
@@ -368,7 +368,7 @@ const Home = () => {
             </form>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   );
 };
