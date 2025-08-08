@@ -5,6 +5,7 @@ import {
   Route,
   useLocation
 } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 import Home from "./pages/Home/Home";
 import "./App.css";
 import Jobs from "./components/Jobs/Jobs";
@@ -26,6 +27,86 @@ const ScrollToTop = () => {
   return null;
 };
 
+const PageTransition = ({ children }) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    >
+      {children}
+    </motion.div>
+  );
+};
+
+const AnimatedRoutes = () => {
+  const location = useLocation();
+
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route
+          path="/"
+          element={
+            <PageTransition>
+              <Home />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/jobs"
+          element={
+            <PageTransition>
+              <Jobs />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/companies"
+          element={
+            <PageTransition>
+              <Companies />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <PageTransition>
+              <About />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <PageTransition>
+              <Contact />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/privacy-policy"
+          element={
+            <PageTransition>
+              <PrivacyPolicy />
+            </PageTransition>
+          }
+        />
+        <Route
+          path="/terms-and-conditions"
+          element={
+            <PageTransition>
+              <TermsAndConditions />
+            </PageTransition>
+          }
+        />
+      </Routes>
+    </AnimatePresence>
+  );
+};
+
 const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(
     localStorage.getItem('cookiesAccepted') !== 'true'
@@ -39,24 +120,32 @@ const CookieBanner = () => {
   if (!showBanner) return null;
 
   return (
-    <div className="cookie-banner" style={{
-      position: 'fixed',
-      bottom: 0,
-      left: 0,
-      right: 0,
-      padding: '15px',
-      background: '#333',
-      color: 'white',
-      textAlign: 'center',
-      zIndex: 1000,
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      gap: '20px'
-    }}>
+    <motion.div 
+      className="cookie-banner"
+      initial={{ y: 100 }}
+      animate={{ y: 0 }}
+      transition={{ type: "spring", stiffness: 100 }}
+      style={{
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        padding: '15px',
+        background: '#333',
+        color: 'white',
+        textAlign: 'center',
+        zIndex: 1000,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '20px'
+      }}
+    >
       <p>We use cookies for ads and analytics. <a href="/privacy-policy" style={{ color: '#4CAF50' }}>Learn more</a></p>
-      <button 
+      <motion.button 
         onClick={acceptCookies}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
         style={{
           padding: '8px 20px',
           background: '#4CAF50',
@@ -67,8 +156,8 @@ const CookieBanner = () => {
         }}
       >
         Accept
-      </button>
-    </div>
+      </motion.button>
+    </motion.div>
   );
 };
 
@@ -78,18 +167,7 @@ function App() {
       <ScrollToTop />
       <Header />
       <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/jobs" element={<Jobs />} />
-          <Route path="/companies" element={<Companies />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route
-            path="/terms-and-conditions"
-            element={<TermsAndConditions />}
-          />
-        </Routes>
+        <AnimatedRoutes />
       </div>
       <Footer />
       <CookieBanner />
