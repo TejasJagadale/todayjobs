@@ -43,11 +43,9 @@ const Home = () => {
           fetchJobs(),
           fetchGovernmentLinks()
         ]);
-        // console.log(jobsData);
 
         setJobs(jobsData);
 
-        // Separate government and private jobs
         const govJobs = jobsData.filter((job) => job.category === "Govt");
         const privJobs = jobsData.filter((job) => job.category !== "Govt");
         setGovernmentJobs(govJobs);
@@ -65,7 +63,6 @@ const Home = () => {
     loadData();
   }, []);
 
-  // Get current jobs for pagination
   const indexOfLastGovJob = currentGovPage * jobsPerPage;
   const indexOfFirstGovJob = indexOfLastGovJob - jobsPerPage;
   const currentGovernmentJobs = governmentJobs.slice(
@@ -102,7 +99,6 @@ const Home = () => {
       );
     });
 
-    // Update separated jobs based on filtered results
     const govJobs = filtered.filter((job) => job.category === "Govt");
     const privJobs = filtered.filter((job) => job.category !== "Govt");
     setGovernmentJobs(govJobs);
@@ -351,24 +347,6 @@ const Home = () => {
           )}
         </div>
       </main>
-
-      {/* Newsletter Section */}
-      {/*   <section className="newsletter-section">
-        <div className="containerhome">
-          <div className="newsletter-content">
-            <h3>Get Job Alerts Directly to Your Inbox</h3>
-            <p>Subscribe to our newsletter for the latest job openings</p>
-            <form className="newsletter-form">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                required
-              />
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
-        </div>
-      </section>*/}
     </div>
   );
 };
