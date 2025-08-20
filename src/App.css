@@ -1,6 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
+font-family: 'Trebuchet MS', sans-serif;
   /* min-height: 100vh; */
 }
 
