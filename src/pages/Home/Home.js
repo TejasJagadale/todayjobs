@@ -430,7 +430,7 @@ const Home = () => {
                     </span>
                     <a
                       href={selectedJob.applyLink}
-                      className="apply-btn"
+                      className="apply-btnhome"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -63,15 +63,6 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/resources"
-                className={location.pathname === "/resources" ? "active" : ""}
-                onClick={closeMenu}
-              >
-                <i className="fas fa-book"></i> Resources
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/about"
                 className={location.pathname === "/about" ? "active" : ""}
                 onClick={closeMenu}

@@ -37,9 +37,9 @@ const JobCard = ({ job, onCardClick }) => {
   };
 
   return (
-    <div className="job-card" onClick={() => onCardClick(job)}>
+    <div className="job-cardhome" onClick={() => onCardClick(job)}>
       <div className="job-header">
-        <div className="company-logo">
+        <div className="company-logojc">
           {job.company?.charAt(0).toUpperCase() || "?"}
         </div>
         <div className="job-title-wrapper">
