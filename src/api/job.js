@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://todayjobsbackend-ermy.onrender.com/api/jobs';
+const API_URL = 'https://todayjobsbackend-2722.onrender.com/api/jobs';
 
 export const fetchJobs = async () => {
   try {
@@ -14,7 +14,7 @@ export const fetchJobs = async () => {
 
 export const fetchGovernmentLinks = async () => {
   try {
-    const response = await axios.get('https://todayjobsbackend-ermy.onrender.com/api/links');
+    const response = await axios.get('https://todayjobsbackend-2722.onrender.com/api/links');
     return response.data;
   } catch (error) {
     console.error('Error fetching government links:', error);
